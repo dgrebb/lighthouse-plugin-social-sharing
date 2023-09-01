@@ -1,6 +1,6 @@
 {
   "name": "lighthouse-plugin-social-sharing",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "src/plugin.js",
   "files": [
     "src"
@@ -27,6 +27,6 @@
     "lighthouse-run": "lighthouse --plugins=lighthouse-plugin-social-sharing --view"
   },
   "peerDependencies": {
-    "lighthouse": "^5.0.0"
+    "lighthouse": "5 - 11"
   }
 }
